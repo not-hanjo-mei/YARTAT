@@ -1,0 +1,81 @@
+{
+  "connection": {
+    "error": "연결 오류: {0}",
+    "closed_abnormal": "연결이 비정상적으로 종료되었습니다 (코드: {0}, 이유: {1}).",
+    "established": "연결되었습니다.",
+    "reconnect_attempt": "연결이 중단되었습니다. {0}초 후 {1}번째 재연결을 시도합니다...",
+    "max_reconnect_attempts": "\n최대 재연결 시도 횟수(5회)에 도달했습니다. 연결에 실패했습니다."
+  },
+  "program": {
+    "interrupted": "사용자에 의해 프로그램이 중단되었습니다",
+    "error": "프로그램 실행 중 오류 발생: {0}",
+    "startup_hint_tui": "H 키를 눌러 도움말 보기",
+    "exit_hint": "Q 키를 눌러 프로그램을 종료하고 나중에 다시 시도하십시오."
+  },
+  "commands": {
+    "exit": "프로그램 종료",
+    "help": "이 도움말 정보 표시",
+    "config": "설정",
+    "exiting": "프로그램 종료 중..."
+  },
+  "config": {
+    "current_config": "현재 설정",
+    "debug_mode": "디버그 모드",
+    "target_lang": "대상 언어",
+    "translation_engine": "번역 엔진",
+    "openai_model": "AI 모델",
+    "openai_api_key": "AI API 키",
+    "media_id": "미디어 ID",
+    "on": "켜기",
+    "off": "끄기",
+    "translator_openai": "AI",
+    "translator_google": "Google 번역",
+    "translator_unknown": "알 수 없음",
+    "not_set": "설정되지 않음",
+    "media_id_invalid": "미디어 ID가 잘못되었습니다. 숫자를 입력하세요.",
+    "save_error": "설정 저장 중 오류 발생: {0}"
+  },
+  "errors": {
+    "reconnect": "재연결 오류: {0}",
+    "google_failed": "Google 번역 오류: {0}",
+    "translation_failed": "번역 실패: {0}",
+    "tui_event_processing": "TUI 이벤트 처리 중 오류 발생",
+    "tui_output_processing": "TUI 출력 처리 중 오류 발생",
+    "translation_task": "번역 작업 처리 오류: {0}",
+    "queue_processing": "큐 처리 오류: {0}",
+    "output_message": "메시지 출력 오류: {0}",
+    "json_parse": "JSON 구문 분석 오류: {0}",
+    "message_processing": "메시지 처리 중 오류 발생: {0}"
+  },
+  "sender_types": {
+    "system": "[ 시스템 ]",
+    "self": "[ 나 ]",
+    "others": "[ 다른 사람 ]"
+  },
+  "message": {
+    "unknown_user": "알 수 없는 사용자",
+    "translation": "\n        번역"
+  },
+  "debug": {
+    "skip_translation": "소스 언어({0})와 대상 언어({1})의 기본 언어 코드가 동일하여 번역을 건너<0xEB><0x9B><0x89>니다",
+    "received_raw_data": "원시 데이터 수신: {0}"
+  },
+  "tui": {
+    "ai_model": "AI 모델",
+    "status": "상태",
+    "target_lang": "대상 언어",
+    "translation_engine": "번역 엔진",
+    "quit": "종료",
+    "help": "도움말",
+    "config": "설정",
+    "back": "뒤로",
+    "save": "저장하고 종료 (Ctrl+S)",
+    "config_title": "설정",
+    "save_hint": "Ctrl+S를 눌러 변경 사항을 저장하고 종료합니다"
+  },
+  "translator": {
+    "engine_not_supported": "지원되지 않는 번역 엔진: {0}, 지원되는 엔진: {1}",
+    "detected_language": "감지된 소스 언어: {0} (신뢰도: {1:.2f}), 대상 언어: {2}",
+    "translation_error": "번역 오류: {0}"
+  }
+}

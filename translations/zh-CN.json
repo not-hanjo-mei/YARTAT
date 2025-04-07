@@ -1,0 +1,81 @@
+{
+  "connection": {
+    "error": "连接错误: {0}",
+    "closed_abnormal": "连接意外关闭 (代码: {0}, 原因: {1})。",
+    "established": "连接已建立。",
+    "reconnect_attempt": "连接中断，将在{0}秒后进行第{1}次重连...",
+    "max_reconnect_attempts": "\n已达到最大重连次数（5次），连接失败。"
+  },
+  "program": {
+    "interrupted": "从程序被用户中断",
+    "error": "程序运行时发生错误: {0}",
+    "startup_hint_tui": "按下H查看帮助",
+    "exit_hint": "按Q退出程序，稍后再试。"
+  },
+  "commands": {
+    "exit": "退出本程序",
+    "help": "显示此帮助信息",
+    "config": "设置",
+    "exiting": "正在退出程序..."
+  },
+  "config": {
+    "current_config": "当前设置",
+    "debug_mode": "调试模式",
+    "target_lang": "目标语言",
+    "translation_engine": "翻译引擎",
+    "openai_model": "AI 模型",
+    "openai_api_key": "AI API 密钥",
+    "media_id": "媒体ID",
+    "on": "开启",
+    "off": "关闭",
+    "translator_openai": "AI",
+    "translator_google": "谷歌翻译",
+    "translator_unknown": "未知",
+    "not_set": "未设置",
+    "media_id_invalid": "媒体ID无效，请输入数字。",
+    "save_error": "保存设置时出错: {0}"
+  },
+  "errors": {
+    "reconnect": "重连错误: {0}",
+    "google_failed": "谷歌翻译错误: {0}",
+    "translation_failed": "翻译错误: {0}",
+    "tui_event_processing": "处理TUI事件时出错",
+    "tui_output_processing": "处理TUI输出时出错",
+    "translation_task": "翻译任务处理错误: {0}",
+    "queue_processing": "队列处理错误: {0}",
+    "output_message": "输出消息错误: {0}",
+    "json_parse": "JSON解析错误: {0}",
+    "message_processing": "处理消息时出错: {0}"
+  },
+  "sender_types": {
+    "system": "[ 系统 ]",
+    "self": "[ 自己 ]",
+    "others": "[ 他人 ]"
+  },
+  "message": {
+    "unknown_user": "未知用户",
+    "translation": "\n        翻译"
+  },
+  "debug": {
+    "skip_translation": "源语言({0})和目标语言({1})具有相同的基础语言代码，跳过翻译",
+    "received_raw_data": "接收到原始数据: {0}"
+  },
+  "tui": {
+    "ai_model": "AI 模型",
+    "status": "状态",
+    "target_lang": "目标语言",
+    "translation_engine": "翻译引擎",
+    "quit": "退出",
+    "help": "帮助",
+    "config": "设置",
+    "back": "返回",
+    "save": "保存并退出 (Ctrl+S)",
+    "config_title": "设置",
+    "save_hint": "按 Ctrl+S 保存更改并退出"
+  },
+  "translator": {
+    "engine_not_supported": "不支持的翻译引擎: {0}，支持的引擎: {1}",
+    "detected_language": "检测到的源语言: {0} (置信度: {1:.2f})，目标语言: {2}",
+    "translation_error": "翻译错误: {0}"
+  }
+}

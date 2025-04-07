@@ -1,0 +1,81 @@
+{
+  "connection": {
+    "error": "Erreur de connexion : {0}",
+    "closed_abnormal": "Connexion fermée anormalement (code : {0}, raison : {1}).",
+    "established": "Connexion établie.",
+    "reconnect_attempt": "Connexion interrompue, tentative de reconnexion n°{1} dans {0} secondes...",
+    "max_reconnect_attempts": "\nNombre maximal de tentatives de reconnexion (5) atteint, échec de la connexion."
+  },
+  "program": {
+    "interrupted": "Programme interrompu par l'utilisateur",
+    "error": "Erreur lors de l'exécution du programme : {0}",
+    "startup_hint_tui": "Appuyez sur H pour afficher l'aide",
+    "exit_hint": "Appuyez sur Q pour quitter le programme et réessayez plus tard."
+  },
+  "commands": {
+    "exit": "Quitter le programme",
+    "help": "Afficher ces informations d'aide",
+    "config": "Configuration",
+    "exiting": "Fermeture du programme..."
+  },
+  "config": {
+    "current_config": "Configuration actuelle",
+    "debug_mode": "Mode débogage",
+    "target_lang": "Langue cible",
+    "translation_engine": "Moteur de traduction",
+    "openai_model": "Modèle IA",
+    "openai_api_key": "Clé API IA",
+    "media_id": "ID Média",
+    "on": "Activé",
+    "off": "Désactivé",
+    "translator_openai": "IA",
+    "translator_google": "Google Traduction",
+    "translator_unknown": "Inconnu",
+    "not_set": "Non défini",
+    "media_id_invalid": "ID Média invalide, veuillez entrer un nombre.",
+    "save_error": "Erreur lors de la sauvegarde de la configuration : {0}"
+  },
+  "errors": {
+    "reconnect": "Erreur de reconnexion : {0}",
+    "google_failed": "Erreur Google Traduction : {0}",
+    "translation_failed": "Échec de la traduction : {0}",
+    "tui_event_processing": "Erreur lors du traitement de l'événement TUI",
+    "tui_output_processing": "Erreur lors du traitement de la sortie TUI",
+    "translation_task": "Erreur de traitement de la tâche de traduction : {0}",
+    "queue_processing": "Erreur de traitement de la file d'attente : {0}",
+    "output_message": "Erreur d'affichage du message : {0}",
+    "json_parse": "Erreur d'analyse JSON : {0}",
+    "message_processing": "Erreur lors du traitement du message : {0}"
+  },
+  "sender_types": {
+    "system": "[ SYSTÈME ]",
+    "self": "[ MOI ]",
+    "others": "[ AUTRES ]"
+  },
+  "message": {
+    "unknown_user": "Utilisateur inconnu",
+    "translation": "\n        Traduction"
+  },
+  "debug": {
+    "skip_translation": "La langue source ({0}) et la langue cible ({1}) ont le même code de langue de base, traduction ignorée",
+    "received_raw_data": "Données brutes reçues : {0}"
+  },
+  "tui": {
+    "ai_model": "Modèle IA",
+    "status": "Statut",
+    "target_lang": "Langue cible",
+    "translation_engine": "Moteur de traduction",
+    "quit": "Quitter",
+    "help": "Aide",
+    "config": "Configuration",
+    "back": "Retour",
+    "save": "Enregistrer et quitter (Ctrl+S)",
+    "config_title": "Configuration",
+    "save_hint": "Appuyez sur Ctrl+S pour enregistrer les modifications et quitter"
+  },
+  "translator": {
+    "engine_not_supported": "Moteur de traduction non pris en charge : {0}, moteurs pris en charge : {1}",
+    "detected_language": "Langue source détectée : {0} (confiance : {1:.2f}), langue cible : {2}",
+    "translation_error": "Erreur de traduction : {0}"
+  }
+}

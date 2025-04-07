@@ -1,0 +1,81 @@
+{
+  "connection": {
+    "error": "連線錯誤: {0}",
+    "closed_abnormal": "連線意外關閉 (代碼: {0}, 原因: {1})。",
+    "established": "連線已建立。",
+    "reconnect_attempt": "連線中斷，將在{0}秒後進行第{1}次重連...",
+    "max_reconnect_attempts": "\n已達到最大重連次數（5次），連線失敗。"
+  },
+  "program": {
+    "interrupted": "程式被使用者中斷",
+    "error": "程式執行時發生錯誤: {0}",
+    "startup_hint_tui": "按下H查看說明",
+    "exit_hint": "按Q退出程式，稍後再試。"
+  },
+  "commands": {
+    "exit": "退出本程式",
+    "help": "顯示此說明資訊",
+    "config": "設定",
+    "exiting": "正在退出程式..."
+  },
+  "config": {
+    "current_config": "目前設定",
+    "debug_mode": "除錯模式",
+    "target_lang": "目標語言",
+    "translation_engine": "翻譯引擎",
+    "openai_model": "AI 模型",
+    "openai_api_key": "AI API 金鑰",
+    "media_id": "媒體ID",
+    "on": "開啟",
+    "off": "關閉",
+    "translator_openai": "AI",
+    "translator_google": "Google 翻譯",
+    "translator_unknown": "未知",
+    "not_set": "未設定",
+    "media_id_invalid": "媒體ID無效，請輸入數字。",
+    "save_error": "儲存設定時出錯: {0}"
+  },
+  "errors": {
+    "reconnect": "重連錯誤: {0}",
+    "google_failed": "Google 翻譯錯誤: {0}",
+    "translation_failed": "翻譯錯誤: {0}",
+    "tui_event_processing": "處理TUI事件時出錯",
+    "tui_output_processing": "處理TUI輸出時出錯",
+    "translation_task": "翻譯任務處理錯誤: {0}",
+    "queue_processing": "佇列處理錯誤: {0}",
+    "output_message": "輸出訊息錯誤: {0}",
+    "json_parse": "JSON解析錯誤: {0}",
+    "message_processing": "處理訊息時出錯: {0}"
+  },
+  "sender_types": {
+    "system": "[ 系統 ]",
+    "self": "[ 自己 ]",
+    "others": "[ 他人 ]"
+  },
+  "message": {
+    "unknown_user": "未知使用者",
+    "translation": "\n        翻譯"
+  },
+  "debug": {
+    "skip_translation": "來源語言({0})和目標語言({1})具有相同的基礎語言代碼，跳過翻譯",
+    "received_raw_data": "接收到原始資料: {0}"
+  },
+  "tui": {
+    "ai_model": "AI 模型",
+    "status": "狀態",
+    "target_lang": "目標語言",
+    "translation_engine": "翻譯引擎",
+    "quit": "退出",
+    "help": "說明",
+    "config": "設定",
+    "back": "返回",
+    "save": "儲存並退出 (Ctrl+S)",
+    "config_title": "設定",
+    "save_hint": "按 Ctrl+S 儲存變更並退出"
+  },
+  "translator": {
+    "engine_not_supported": "不支援的翻譯引擎: {0}，支援的引擎: {1}",
+    "detected_language": "偵測到的來源語言: {0} (信賴度: {1:.2f})，目標語言: {2}",
+    "translation_error": "翻譯錯誤: {0}"
+  }
+}

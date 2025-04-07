@@ -1,0 +1,8 @@
+.vscode/
+config.json
+realityAutoTranslate.py
+src/__pycache__/
+build/
+dist/
+environment.yml
+YARTAT.spec

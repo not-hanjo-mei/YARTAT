@@ -1,0 +1,68 @@
+{
+    "debug": {
+        "value": false,
+        "comment": "Debug switch, set to true to output detailed logs, default: false"
+    },
+    "performance": {
+        "maxWorkers": {
+            "value": 8,
+            "comment": "Translation thread pool size, recommended value 4-12, default: 1"
+        },
+        "translationTimeout": {
+            "value": 30,
+            "comment": "Translation timeout in seconds, default: 30"
+        }
+    },
+    "reality": {
+        "mediaId": {
+            "value": 101234567,
+            "comment": "Reality App Media ID"
+        },
+        "vLiveId": {
+            "value": "oiiaoooiiiao",
+            "comment": "Reality App Live ID"
+        },
+        "gid": {
+            "value": "vlive-g-01234567-abcd-cdef-7890-0123456789ab",
+            "comment": "Reality App GID"
+        },
+        "auth": {
+            "value": "Bearer oiiaoooiiiao",
+            "comment": "Reality App Authentication Token"
+        }
+    },
+    "openai": {
+        "apiKey": {
+            "value": "sk-oiiaoooiiiao",
+            "comment": "OpenAI API Key"
+        },
+        "apiBase": {
+            "value": "https://oii.aoo.oiii.ao/v1",
+            "comment": "OpenAI API Base URL"
+        },
+        "model": {
+            "value": "deepseek-chat",
+            "comment": "AI Model Name to use"
+        }
+    },
+    "translation": {
+        "engine": {
+            "value": "openai",
+            "comment": "Translation engine selection: google or openai, default: google"
+        },
+        "commandLines": {
+            "value": 2,
+            "comment": "Number of command input area lines to retain, default: 2"
+        },
+        "targetLanguage": {
+            "value": "en-US",
+            "comment": "Target language, default: en-US"
+        }
+    },
+    "startup": {
+        "printConfig": {
+            "value": false,
+            "comment": "Print configuration parameters at startup, default: true"
+        }
+    }
+}

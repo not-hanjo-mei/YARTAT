@@ -1,0 +1,81 @@
+{
+  "connection": {
+    "error": "Connection error: {0}",
+    "closed_abnormal": "Connection closed abnormally: {0} - {1}",
+    "established": "Connection established",
+    "reconnect_attempt": "Attempting to reconnect in {0} seconds (attempt {1})",
+    "max_reconnect_attempts": "Maximum reconnect attempts reached"
+  },
+  "program": {
+    "interrupted": "Program interrupted by user",
+    "error": "Program error: {0}",
+    "startup_hint_tui": "Press h to see help information",
+    "exit_hint": "Press q to quit the program and try again later."
+  },
+  "commands": {
+    "exit": "Exit the program",
+    "help": "Show this help information",
+    "config": "Configuration",
+    "exiting": "Exiting program..."
+  },
+  "config": {
+    "current_config": "Current configuration",
+    "debug_mode": "Debug Mode",
+    "target_lang": "Target Language",
+    "translation_engine": "Translation Engine",
+    "openai_model": "AI Model",
+    "openai_api_key": "Endpoint API Key",
+    "media_id": "Media ID",
+    "on": "On",
+    "off": "Off",
+    "translator_openai": "AI",
+    "translator_google": "Google Translate",
+    "translator_unknown": "Unknown",
+    "not_set": "Not set",
+    "media_id_invalid": "Invalid media ID",
+    "save_error": "Error saving configuration: {0}"
+  },
+  "errors": {
+    "reconnect": "Reconnect error: {0}",
+    "google_failed": "Google translation error: {0}",
+    "translation_failed": "Translation failed: {0}",
+    "tui_event_processing": "Error processing TUI event",
+    "tui_output_processing": "Error processing TUI output",
+    "translation_task": "Error processing translation task: {0}",
+    "queue_processing": "Error processing queue: {0}",
+    "output_message": "Error outputting message: {0}",
+    "json_parse": "JSON parse error: {0}",
+    "message_processing": "Error processing message: {0}"
+  },
+  "sender_types": {
+    "system": "[ SYSTEM ]",
+    "self": "[  SELF  ]",
+    "others": "[ OTHERS ]"
+  },
+  "message": {
+    "unknown_user": "Unknown User",
+    "translation": "\n          Translation"
+  },
+  "debug": {
+    "skip_translation": "Source language ({0}) and target language ({1}) have the same base language code, skipping translation",
+    "received_raw_data": "Received raw data: {0}"
+  },
+  "tui": {
+    "ai_model": "AI Model",
+    "status": "Status",
+    "target_lang": "Target language",
+    "translation_engine": "Translation engine",
+    "quit": "Quit",
+    "help": "Help",
+    "config": "Config",
+    "back": "Back",
+    "save": "Save and quit (Ctrl+S)",
+    "config_title": "Configuration",
+    "save_hint": "Press Ctrl+S to save changes and quit"
+  },
+  "translator": {
+    "engine_not_supported": "Unsupported translation engine: {0}, supported engines: {1}",
+    "detected_language": "Detected source language: {0} (confidence: {1:.2f}), target language: {2}",
+    "translation_error": "Translation error: {0}"
+  }
+}

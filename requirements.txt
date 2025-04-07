@@ -1,0 +1,6 @@
+websocket-client>=1.6.4
+aiohttp>=3.9.1
+typing-extensions>=4.8.0
+pycld2>=0.41
+textual>=0.40.0
+emoji>=2.0.0

@@ -1,0 +1,81 @@
+{
+  "connection": {
+    "error": "接続エラー: {0}",
+    "closed_abnormal": "接続が異常終了しました (コード: {0}, 理由: {1})。",
+    "established": "接続が確立されました。",
+    "reconnect_attempt": "接続が中断されました。{0}秒後に{1}回目の再接続を試みます...",
+    "max_reconnect_attempts": "\n最大再接続試行回数（5回）に達しました。接続に失敗しました。"
+  },
+  "program": {
+    "interrupted": "ユーザーによってプログラムが中断されました",
+    "error": "プログラム実行中にエラーが発生しました: {0}",
+    "startup_hint_tui": "Hキーを押してヘルプを表示",
+    "exit_hint": "Qキーを押してプログラムを終了し、後でもう一度お試しください。"
+  },
+  "commands": {
+    "exit": "プログラムを終了する",
+    "help": "このヘルプ情報を表示する",
+    "config": "設定",
+    "exiting": "プログラムを終了しています..."
+  },
+  "config": {
+    "current_config": "現在の設定",
+    "debug_mode": "デバッグモード",
+    "target_lang": "ターゲット言語",
+    "translation_engine": "翻訳エンジン",
+    "openai_model": "AIモデル",
+    "openai_api_key": "AI APIキー",
+    "media_id": "メディアID",
+    "on": "オン",
+    "off": "オフ",
+    "translator_openai": "AI",
+    "translator_google": "Google翻訳",
+    "translator_unknown": "不明",
+    "not_set": "未設定",
+    "media_id_invalid": "メディアIDが無効です。数字を入力してください。",
+    "save_error": "設定の保存中にエラーが発生しました: {0}"
+  },
+  "errors": {
+    "reconnect": "再接続エラー: {0}",
+    "google_failed": "Google翻訳エラー: {0}",
+    "translation_failed": "翻訳エラー: {0}",
+    "tui_event_processing": "TUIイベント処理中にエラーが発生しました",
+    "tui_output_processing": "TUI出力処理中にエラーが発生しました",
+    "translation_task": "翻訳タスク処理エラー: {0}",
+    "queue_processing": "キュー処理エラー: {0}",
+    "output_message": "メッセージ出力エラー: {0}",
+    "json_parse": "JSON解析エラー: {0}",
+    "message_processing": "メッセージ処理中にエラーが発生しました: {0}"
+  },
+  "sender_types": {
+    "system": "[ システム ]",
+    "self": "[ 自分 ]",
+    "others": "[ 他者 ]"
+  },
+  "message": {
+    "unknown_user": "不明なユーザー",
+    "translation": "\n        翻訳"
+  },
+  "debug": {
+    "skip_translation": "ソース言語({0})とターゲット言語({1})の基本言語コードが同じため、翻訳をスキップします",
+    "received_raw_data": "生データを受信しました: {0}"
+  },
+  "tui": {
+    "ai_model": "AIモデル",
+    "status": "ステータス",
+    "target_lang": "ターゲット言語",
+    "translation_engine": "翻訳エンジン",
+    "quit": "終了",
+    "help": "ヘルプ",
+    "config": "設定",
+    "back": "戻る",
+    "save": "保存して終了 (Ctrl+S)",
+    "config_title": "設定",
+    "save_hint": "Ctrl+Sを押して変更を保存し、終了します"
+  },
+  "translator": {
+    "engine_not_supported": "サポートされていない翻訳エンジン: {0}、サポートされているエンジン: {1}",
+    "detected_language": "検出されたソース言語: {0} (信頼度: {1:.2f})、ターゲット言語: {2}",
+    "translation_error": "翻訳エラー: {0}"
+  }
+}
