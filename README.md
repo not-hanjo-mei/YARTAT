@@ -24,7 +24,7 @@ YARTAT is a powerful real-time translation tool specifically designed for the RE
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/not_hanjo_mei/YARTAT.git
+   git clone https://github.com/not-hanjo-mei/YARTAT.git
    cd YARTAT
    ```
 
